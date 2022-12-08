@@ -1,3 +1,7 @@
+using Pkg 
+Pkg.activate("..")
+using Jieba
+using Test
 # test segmentations
 @info "Testing segment ..."
 cutter = Jieba.worker()

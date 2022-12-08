@@ -1,3 +1,7 @@
+using Pkg 
+Pkg.activate("..")
+using Jieba
+using Test
 # 测试分词
 @info "测试分词 ..."
 分词测试引擎 = Jieba.分词初始化()
